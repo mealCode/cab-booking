@@ -50,14 +50,9 @@ n/a
 
 ### GET `/api/cabs` - find nearby cab
 
-**Request Body**
+**Request Query**
 
-```
-{
-	"lat": "38.87681502",
-	"long": "-76.9915620"
-}
-```
+`/api/cabs?lat=38.87681502&long=-76.9915620`
 
 **Request Response**
 
