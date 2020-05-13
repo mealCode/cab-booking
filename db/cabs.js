@@ -1,5 +1,6 @@
 const faker = require('faker');
 
+// list of cabs in washington dc area
 exports.cabs = [
   {
     id: '0c58f5a9-796e-4dce-a0c3-3a1edc1b2098',

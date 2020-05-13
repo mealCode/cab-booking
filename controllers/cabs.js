@@ -8,7 +8,7 @@ const { ApiError, codes } = require('../helpers/error_handler');
 
 router.get('/', async (req, res) => {
   try {
-    const { lat, long } = req.body;
+    const { lat, long } = req.query;
     if (!lat || !long) throw ApiError(codes.InvalidParameters, 'Missing either lat, long');
     const calculatedCabsDistance = [];
 
